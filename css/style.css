@@ -1,0 +1,133 @@
+body {
+	background: url('../img/music-background.JPG') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+/************************
+Header Styling
+************************/
+
+.title-content {
+	position: relative;
+	margin: 0 auto;
+	height: 150px;
+	width: 60%;
+	top: -1em;
+	padding: 0.1em 1em 3em 1em;
+	background-color: rgba(0, 102, 153, .8);
+	border-radius: 0 0 15px 15px;
+	color: white;
+	border: 1px solid black;
+	box-shadow: 0 0 3px black;
+	font-family: 'Quattrocento', serif;
+}
+
+.title, .by-line {
+	text-align: center;
+}
+
+.title {
+	font-family: 'Oswald', sans-serif;
+}
+
+.results {
+	background-color: #CCC;
+	padding: .7em;
+	border-radius: 15px;
+	color: black;
+	margin-bottom: 5px;
+}
+
+#progress {
+	position: relative;
+	float: left;
+}
+
+#score {
+	position: relative;
+	float: right;
+}
+
+/*************************
+Main Content Styling
+*************************/
+
+.main-content {
+	background-color: rgba(204, 204, 204, .95);
+	position: relative;
+	margin: 0 auto;
+	top: 4em;
+	width: 70%;
+	height: 100%;
+	padding: 1em 1em 3em 1em;
+	border-radius: 10px;
+	box-shadow: 0 0 3px black;
+	color: black;
+	border: 1px solid black;
+	font-family: 'Oswald', sans-serif;
+}
+
+/*.question-number, .questions {
+	display: inline;
+	margin: 0;
+}*/
+
+.question-number {
+	float: left;
+	margin-right: 10px;
+}
+
+.questions {
+	position: relative;
+	top: .7em;
+}
+
+form {
+	position: relative;
+	margin-bottom: 2em;
+	clear: both;
+	left: 3em;
+	font-family: 'Quattrocento', serif;
+	background-color: #006699;
+	color: white;
+	width: 20%;
+	border-radius: 10px;
+	padding: 1em;
+	box-shadow: 0 0 5px black;
+}
+
+input {
+	margin: 1em;
+}
+
+.fa {
+	margin: 5px;
+}
+
+.back, .forward {
+	position: relative;
+	margin-top: 1em;
+	color: white;
+	transition: color .5s ease;
+}
+
+.back:hover, .forward:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.back {
+	position: relative;
+	float: left;
+	margin-top: 10px;
+}
+
+.forward {
+	position: relative;
+	float: right;
+	margin-top: 10px;
+}
