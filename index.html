@@ -12,10 +12,10 @@
 		<h1 class="title">Music Fundamentals Quiz</h1>
 		<h3 class="by-line">by Matt Chastain</h3>
 			<p class="results" id="progress">
-				Progress: 0/10
+				Progress: 1/7
 			</p>
 			<p class="results" id="score">
-				Score: 0/10
+				Score: 0/7
 			</p>
 		</ul>
 	</header>
@@ -23,13 +23,18 @@
 		<h2 class="question-number">1)</h2>
 		<p class="questions">Default text in place of questions.</p>
 		<form>
-			<input type="radio" name="" value="" id=""><label>A) First Choice</label><br/>
-			<input type="radio"><label>B) Second Choice</label><br/>
-			<input type="radio" name="" value="" id=""><label>C) Third Choice</label><br/>
-			<input type="radio" name="" value="" id=""><label>D) Fourth Choice</label><br/>
+			<input type="radio" name="choices" value="a" id="a"><label id="choice-a">A) First Choice</label><br/>
+			<input type="radio" name="choices" value="b" id="b"><label id="choice-b">B) Second Choice</label><br/>
+			<input type="radio" name="choices" value="c" id="c"><label id="choice-c">C) Third Choice</label><br/>
+			<input type="radio" name="choices" value="d" id="d"><label id="choice-d">D) Fourth Choice</label><br/>
 		</form>
-		<i class="back fa fa-caret-square-o-left fa-2x"></i>
+		<!-- <i class="back fa fa-caret-square-o-left fa-2x"></i> -->
 		<i class="forward fa fa-caret-square-o-right fa-2x"></i>
 	</section>
+	<section class="overlay">
+		<h1 id="final-results"></h1>
+	</section>
+	<script src="js/jQuery.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
