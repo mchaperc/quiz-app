@@ -87,7 +87,7 @@
 			score++;
 			$('#score').text('Score: ' + score + '/7');
 		}
-		if (currentQuestion == 3 && $('input[name=choices]:checked').val() === 'c') {
+		if (currentQuestion == 3 && $('input[name=choices]:checked').val() === 'd') {
 			score++;
 			$('#score').text('Score: ' + score + '/7');
 		}
