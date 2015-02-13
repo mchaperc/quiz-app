@@ -75,7 +75,7 @@
 
 //Check for correct answers
 	$('input').on('click', function() {
-		if (currentQuestion == 0 && $('input[name=choices]:checked').val() === 'b') {
+		if (currentQuestion == 0 && $('input[name=choices]:checked').val() === 'c') {
 			score++;
 			$('#score').text('Score: ' + score + '/7');
 		}
